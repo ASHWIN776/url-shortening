@@ -17,6 +17,6 @@ urlForm.addEventListener("submit", function(event){
         return response.json();
     })
     .then(function(data){
-        console.dir(data);
+        console.log(data);
     })
 });
