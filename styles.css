@@ -6,7 +6,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    flex-direction: column;
+    overflow: auto;
 }
 
 .navigation-bar {
@@ -97,13 +98,13 @@ h1 {
 }
 
 .wrapper {
-    margin: 33px;
+    /* margin: 33px; */
 }
 
 .box {
     border: none;
     padding: 16px;
-    box-shadow: 10px 10px 10px 10px grey;
+    box-shadow: 2px 2px 2px 2px grey;
 }
 
 .boxes {
@@ -111,7 +112,7 @@ h1 {
     column-gap: 52px;
 }
 
-.footer h2, p {
+.advanced h2, p {
     text-align: center;
 }
 
@@ -125,7 +126,7 @@ h1 {
     top: 40px;
 }
 
-.footer img {
+.advanced img {
     width: 36px;
     padding: 4px;
 }
@@ -144,4 +145,45 @@ h1 {
 
 h4 {
     margin-top: 0px;
+}
+
+.section h3 {
+    color: white;
+    text-align: center;
+}
+
+.section button {
+    border: none;
+    background-color: hsl(180, 66%, 49%);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+.section {
+    background-color: pink;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    column-gap: 16px;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+.div h5 {
+    text-align: center;
+}
+
+.footer li {
+    list-style-type: none;
+}
+
+.social {
+    display: flex;
+    column-gap: 16px;
 }
