@@ -2,12 +2,146 @@
     box-sizing: border-box;
 }
 
-.input {
-    border: 1px solid black;
-    padding: 16px;
-    margin: 200px;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-input {
-    width: 90%;
+.navigation-bar {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-bar ul {
+    display: flex;
+    gap: 20px;
+}
+
+.navigation-bar li {
+    list-style-type: none;
+    cursor: pointer;;
+}
+
+.navigation-bar li:hover {
+    list-style-type: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.navigation-bar nav {
+    display: flex;
+    align-items: center;
+    gap: 754px;
+}
+
+.login {
+    border: none;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.sign-up {
+    border: none;
+    background-color: hsl(180, 66%, 49%);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.sign-up:hover {
+    background-color: rgb(100, 207, 207);
+}
+
+.heading {
+    display: flex;
+}
+
+h1 {
+    width: 216px;
+    margin-bottom: 0px;
+}
+
+.description p {
+    width: 314px;
+    margin-top: 0px;
+    color: hsl(0, 0%, 75%);
+}
+
+.description button {
+    border: none;
+    background-color: hsl(180, 66%, 49%);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+.description button:hover {
+    background-color: rgb(100, 207, 207);
+}
+
+.form {
+    border: 1px solid black;
+    padding: 10px;
+    width: 50%;
+}
+
+.form input {
+    width: 80%;
+}
+
+.wrapper {
+    margin: 33px;
+}
+
+.box {
+    border: none;
+    padding: 16px;
+    box-shadow: 10px 10px 10px 10px grey;
+}
+
+.boxes {
+    display: flex;
+    column-gap: 52px;
+}
+
+.footer h2, p {
+    text-align: center;
+}
+
+.box-two {
+    position: relative;
+    top: 20px;
+}
+
+.box-three {
+    position: relative;
+    top: 40px;
+}
+
+.footer img {
+    width: 36px;
+    padding: 4px;
+}
+
+.images {
+    border-radius: 50%;
+    background-color: hsl(260, 8%, 14%);
+    position: relative;
+    bottom: 40px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
+    margin-top: 0px;
 }

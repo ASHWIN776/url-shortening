@@ -1,16 +1,24 @@
-const urlForm = document.querySelector("#url_form");
+// const urlForm = document.querySelector("#url_form");
 
-console.log(urlForm);
+// console.log(urlForm);
 
-urlForm.addEventListener("submit", function(event){
+const URL = document.querySelector("input");
 
-    event.preventDefault();
 
-    const form = event.target;
-    const url = form["url"].value;
 
-    console.log(url);
 
+const button = document.querySelector(".submit");
+
+button.addEventListener("click", function(event){
+
+    // event.preventDefault();
+
+    // const form = event.target;
+    // const url = form["url"].value;
+
+    // console.log(url);
+
+    const url = URL.value;
 
     fetch(`https://cleanuri.com/api/v1/shorten/${url}`)
     .then(function(response){
