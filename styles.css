@@ -34,7 +34,8 @@ body {
 .navigation-bar nav {
     display: flex;
     align-items: center;
-    gap: 754px;
+    flex-grow: 1;
+    justify-content: space-between;
 }
 
 .login {
@@ -98,7 +99,7 @@ h1 {
 }
 
 .wrapper {
-    /* margin: 33px; */
+    margin-left: 100px;
 }
 
 .box {
